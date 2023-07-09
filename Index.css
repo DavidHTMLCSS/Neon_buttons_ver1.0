@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #00d9ff;
+    text-shadow: 0 0 20px #00d9ff;
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #00d9ff;
+    text-shadow: 0 0 20px #00d9ff;
+    padding-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 1.5px white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #00d9ff;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333;
+    box-shadow: 0 0 15px #00d9ff;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .divider {
+      width: 100vw;
+      height: 1px;
+      background-color: #00d9ff;
+      margin: 20px 0;
+    }
+
+
+  .facebook-button {
+    border-color: #193e8f; 
+    box-shadow: 0 0 15px #193e8f; 
+  }
+
+  .facebook-button:hover {
+    box-shadow: 0 0 25px #193e8f;
+    text-shadow: 0 0 8px #193e8f;
+  }
+
+  .twitter-button {
+    border-color: #00e1ff; 
+    box-shadow: 0 0 15px #00e1ff; 
+  }
+
+  .twitter-button:hover {
+    box-shadow: 0 0 25px #00e1ff;
+    text-shadow: 0 0 8px #00e1ff;
+  }
+  
+  .instagram-button {
+    border-color: #c13584; 
+    box-shadow: 0 0 15px #c13584; 
+  }
+
+  .instagram-button:hover {
+    box-shadow: 0 0 25px #c13584;
+    text-shadow: 0 0 8px #c13584;  
+  }
+  
+  .youtube-button {
+    border-color: #ff0000;
+    box-shadow: 0 0 15px #ff0000; 
+  }
+
+  .youtube-button:hover {
+    box-shadow: 0 0 25px #ff0000;
+    text-shadow: 0 0 8px #ff0000; 
+  }
+
+  .Reddit-button {
+    border-color: #ff4d00;
+    box-shadow: 0 0 15px #ff4d00; 
+  }
+
+  .Reddit-button:hover {
+    box-shadow: 0 0 25px #ff4d00;
+    text-shadow: 0 0 8px #ff4d00;
+  }
+
+  .Discord-button {
+    border-color: #536cc9;
+    box-shadow: 0 0 15px #536cc9; 
+  }
+
+  .Discord-button:hover {
+    box-shadow: 0 0 25px #536cc9;
+    text-shadow: 0 0 8px #536cc9;
+  }
+
+  .Spotify-button {
+    border-color:   #3e700b;
+    box-shadow: 0 0 15px   #3e700b; 
+  }
+
+  .Spotify-button:hover {
+    box-shadow: 0 0 25px #3e700b;
+    text-shadow: 0 0 8px #3e700b;
+  }
+
+  .VKontakte-button {
+    border-color:   #0091ff;
+    box-shadow: 0 0 15px   #0091ff; 
+  }
+
+  .VKontakte-button:hover {
+    box-shadow: 0 0 25px #0091ff;
+    text-shadow: 0 0 8px #0091ff;
+  }
+
+  .Twitch-button {
+    border-color:   #a676fe;
+    box-shadow: 0 0 15px   #a676fe; 
+  }
+
+  .Twitch-button:hover {
+    box-shadow: 0 0 25px #a676fe;
+    text-shadow: 0 0 8px #a676fe;
+  }
+
+  .Tiktok-button {
+    border-color:   #ff0050;
+    box-shadow: 0 0 15px   #ff0050; 
+  }
+
+  .Tiktok-button:hover {
+    box-shadow: 0 0 25px #ff0050;
+    text-shadow: 0 0 8px #00f2ea;
+  }
+
+  .Snapchat-button {
+    border-color:   #c7c430;
+    box-shadow: 0 0 15px   #c7c430; 
+  }
+
+  .Snapchat-button:hover {
+    box-shadow: 0 0 25px #c7c430;
+    text-shadow: 0 0 8px #c7c430;
+  }
+
+  .Whatsapp-button {
+    border-color:   #5BD066;
+    box-shadow: 0 0 15px   #5BD066; 
+  }
+
+  .Whatsapp-button:hover {
+    box-shadow: 0 0 25px #5BD066;
+    text-shadow: 0 0 8px #5BD066;
+  }
+
+
+  button:hover {
+    box-shadow: 0 0 25px #00d9ff;
+    text-shadow: 0 0 15px white;
+  }
+
+
+  .button svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-left: auto;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #111;
+  }
+
+  footer p {
+    color: #fff;
+    font-size: 15px;
+  }
