@@ -49,7 +49,7 @@ body {
 
   .button {
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 0 0 1.5px white;
+    text-shadow: 0 0 1.5px #ffffff;
     position: relative;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ body {
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
-    background-color: #333;
+    background-color: #1c1b1b;
     box-shadow: 0 0 15px #00d9ff;
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
@@ -89,7 +89,7 @@ body {
   }
 
   .facebook-button:hover {
-    box-shadow: 0 0 25px #193e8f;
+    box-shadow: 0 0 30px #193e8f;
     text-shadow: 0 0 8px #193e8f;
   }
 
@@ -99,7 +99,7 @@ body {
   }
 
   .twitter-button:hover {
-    box-shadow: 0 0 25px #00e1ff;
+    box-shadow: 0 0 30px #00e1ff;
     text-shadow: 0 0 8px #00e1ff;
   }
   
@@ -109,7 +109,7 @@ body {
   }
 
   .instagram-button:hover {
-    box-shadow: 0 0 25px #c13584;
+    box-shadow: 0 0 30px #c13584;
     text-shadow: 0 0 8px #c13584;  
   }
   
@@ -119,7 +119,7 @@ body {
   }
 
   .youtube-button:hover {
-    box-shadow: 0 0 25px #ff0000;
+    box-shadow: 0 0 30px #ff0000;
     text-shadow: 0 0 8px #ff0000; 
   }
 
@@ -139,7 +139,7 @@ body {
   }
 
   .Discord-button:hover {
-    box-shadow: 0 0 25px #536cc9;
+    box-shadow: 0 0 30px #536cc9;
     text-shadow: 0 0 8px #536cc9;
   }
 
@@ -149,7 +149,7 @@ body {
   }
 
   .Spotify-button:hover {
-    box-shadow: 0 0 25px #3e700b;
+    box-shadow: 0 0 30px #3e700b;
     text-shadow: 0 0 8px #3e700b;
   }
 
@@ -159,7 +159,7 @@ body {
   }
 
   .VKontakte-button:hover {
-    box-shadow: 0 0 25px #0091ff;
+    box-shadow: 0 0 30px #0091ff;
     text-shadow: 0 0 8px #0091ff;
   }
 
@@ -169,7 +169,7 @@ body {
   }
 
   .Twitch-button:hover {
-    box-shadow: 0 0 25px #a676fe;
+    box-shadow: 0 0 30px #a676fe;
     text-shadow: 0 0 8px #a676fe;
   }
 
@@ -179,7 +179,7 @@ body {
   }
 
   .Tiktok-button:hover {
-    box-shadow: 0 0 25px #ff0050;
+    box-shadow: 0 0 30px #ff0050;
     text-shadow: 0 0 8px #00f2ea;
   }
 
@@ -189,7 +189,7 @@ body {
   }
 
   .Snapchat-button:hover {
-    box-shadow: 0 0 25px #c7c430;
+    box-shadow: 0 0 30px #c7c430;
     text-shadow: 0 0 8px #c7c430;
   }
 
@@ -199,13 +199,13 @@ body {
   }
 
   .Whatsapp-button:hover {
-    box-shadow: 0 0 25px #5BD066;
+    box-shadow: 0 0 30px #5BD066;
     text-shadow: 0 0 8px #5BD066;
   }
 
 
   button:hover {
-    box-shadow: 0 0 25px #00d9ff;
+    box-shadow: 0 0 30px #00d9ff;
     text-shadow: 0 0 15px white;
     background-color: #4a5658;
   }

@@ -10,6 +10,14 @@ document.getElementById('butt3').addEventListener('click', function() {
     document.getElementById('section3').scrollIntoView();
 });
 
-document.getElementById('butt4').addEventListener('click', function() {
-    document.getElementById('section4').scrollIntoView();
+document.getElementById('back_butt1').addEventListener('click', function() {
+    document.getElementById('home_up').scrollIntoView();
+});
+
+document.getElementById('back_butt2').addEventListener('click', function() {
+    document.getElementById('home_up').scrollIntoView();
+});
+
+document.getElementById('back_butt3').addEventListener('click', function() {
+    document.getElementById('home_up').scrollIntoView();
 });
